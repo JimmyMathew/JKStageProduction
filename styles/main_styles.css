@@ -46,7 +46,7 @@ body
 	font-family: 'Futura', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #000000;
+	background: #990531;
 	color: #FFFFFF;
 }
 div
@@ -285,7 +285,7 @@ section
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: #000000;
+	background: #990531;
 	z-index: 100;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -295,12 +295,13 @@ section
 }
 .header.scrolled
 {
-	background: rgba(0,0,0,0.85);
+	background: #990531;
+	opacity: 0.5;  
 }
 .header_content
 {
 	width: 100%;
-	height: 101px;
+	height: 43px;
 	padding-left: 51px;
 	padding-right: 52px;
 	-webkit-transition: all 400ms ease;
@@ -450,7 +451,7 @@ section
 /*********************************
 4. Menu
 *********************************/
-/*Test*/
+/*Jimmy Mathew:: Navigation menu integration::29102019*/
 /*----------
   NAV
 ----------*/
@@ -546,7 +547,7 @@ section
 	-webkit-animation-name: fadeInRight;
 			animation-name: fadeInRight;
   }
-/*EndTest*/
+/*End Menu*/
 .menu
 {
 	position: fixed;
@@ -695,7 +696,7 @@ section
 .home
 {
 	width: 100%;
-	height: 892px;
+	height: 947px;
 	padding-left: 51px;
 	padding-right: 52px;
 }
@@ -1418,7 +1419,7 @@ section
 
 .footer
 {
-	background: #000000;
+	background: #990531;
 	padding-left: 50px;
 	padding-right: 51px;
 }
@@ -1526,7 +1527,7 @@ section
 {
 	width: 100%;
 	height: 67px;
-	background: #000000;
+	background: #990531;
 }
 .copyright_bar span
 {
