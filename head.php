@@ -39,7 +39,7 @@
 	<!-- Header -->
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="#">Jk Stage Production</a></div>
+			<div class="logo"><a href="#">Jk Stage Production Logo here</a></div>
 			<!-- <div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 					<li><a href="#">Login</a></li>
