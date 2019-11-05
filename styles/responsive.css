@@ -122,7 +122,7 @@
 	}
 	.hamburger
 	{
-		display: block;
+		/* display: block; */
 	}
 	.featured_album .section_title_container
 	{
@@ -313,6 +313,12 @@
 	.logo
 	{
 		left: 15px;
+		top: 39px;
+	}
+	.logo a {
+		font-family: 'Futura', sans-serif;
+		font-size: 20px;
+		color: #FFFFFF;
 	}
 	.log_reg
 	{

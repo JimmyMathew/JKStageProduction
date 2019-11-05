@@ -60,7 +60,6 @@ include('head.php');
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -83,8 +82,29 @@ include('head.php');
 							<div class="section_title"><h1>The Artist</h1></div>
 						</div>
 						<div class="artist_text">
-							<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
-							<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat. Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada. Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
+						<p>
+							JK Stage Production was established in 2004. It is located in Chennai, Tamil Nadu with convenient transportation access.
+						</p>
+
+						<p>
+							The company's factory environment is clean and tidy, high-quality management team, well-trained industrial workers, 
+							fast information transmission and meticulous customer management system make the company basically 
+							have the standards of modern production enterprises.
+						</p>
+						<p>
+						The raw materials of all products are in accordance with the standards of international products and the quality 
+						management system has passed ISO 0000:0000 certification.
+						</p>
+
+						<p>
+							The company's main steel/aluminum alloy stage, steel/aluminum alloy truss, folding stage, wedding stage, lighting stand, 
+							chorus, glass stage, grandstand and scaffolding and other products with very strong production capacity of large enterprises.
+						</p>
+						<p>
+							Dedicated to strict quality control and thoughtful customer service, our experienced 
+							staff members are always available to discuss your requirements and ensure full customer satisfaction. 
+							In recent years, our company has introduced a series of advanced equipment.
+						</p>
 						</div>
 						<div class="artist_sig"><img src="images/sig.png" alt=""></div>
 					

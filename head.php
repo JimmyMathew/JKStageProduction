@@ -31,6 +31,14 @@
 <script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
 <script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
 <script src="js/custom.js"></script>	
+<script src="plugins/fit-vids/jquery.fitvids.js"></script>
+<script src="js/single.js"></script>
+<style>
+.jklogo{
+	width: 125px;
+    height: 72px;
+}
+</style>
 </head>
 <body>
 
@@ -39,7 +47,7 @@
 	<!-- Header -->
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="#">Jk Stage Production Logo here</a></div>
+			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo">  JK Stage Production</a></div>
 			<!-- <div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 					<li><a href="#">Login</a></li>
@@ -77,7 +85,7 @@
 
 	<!-- Menu -->
 
-	<div class="menu">
+	<!-- <div class="menu">
 		<div>
 			<div class="menu_overlay"></div>
 			<div class="menu_container d-flex flex-column align-items-start justify-content-center">
@@ -98,5 +106,5 @@
 				</nav>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
