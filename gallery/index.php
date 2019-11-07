@@ -108,6 +108,7 @@
 	background: #000000;
 	padding-left: 50px;
 	padding-right: 51px;
+	padding-top:60px;
 }
 .newsletter_container
 {
