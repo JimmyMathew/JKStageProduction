@@ -67,7 +67,7 @@
 				<ul class="nav flex-column">
 					<li class="nav-item"><a class="nav-link" href="index.php"><span>Home</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="about.php"><span>About us</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="music.php"><span>Music</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="gallery"><span>Events</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="blog.php"><span>News</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="contact.php"><span>Contact Us</span></a></li>
 				</ul>
