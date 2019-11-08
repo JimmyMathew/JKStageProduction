@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Multiverse by HTML5 UP</title>
+		<title>JK Stage Production</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -12,6 +12,178 @@
 		<link rel="stylesheet" type="text/css" href="../styles/responsive.css">
 		<link href="../plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<style>
+	body {
+    padding: 0 0 0 0; 
+}
+.header
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #000000;
+	z-index: 100;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.header.scrolled
+{
+	background: #000000;
+	opacity: 0.5;  
+}
+.header_content
+{
+	width: 100%;
+	height: 75px;
+	padding-left: 51px;
+	padding-right: 52px;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.header.scrolled .header_content
+{
+	height: 70px;
+}
+.logo
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 51px;
+}
+.logo a
+{
+	font-family: 'Futura', sans-serif;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+.log_reg
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 52px;
+}
+.log_reg ul li
+{
+	position: relative;
+}
+.log_reg ul li:not(:last-child)::after
+{
+	display: inline-block;
+	content: '/';
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+.log_reg ul li a
+{
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.log_reg ul li a:hover
+{
+	color: #de4f33;
+}
+.main_nav ul li:not(:last-child)
+{
+	margin-right: 24px;
+}
+.main_nav ul li
+{
+	position: relative;
+}
+.main_nav ul li a
+{
+	position: relative;
+	font-size: 16px;
+	color: #FFFFFF;
+	padding-left: 26px;
+	padding-right: 23px;
+	z-index: 1;
+}
+.main_nav ul li a::after
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	width: 100%;
+	height: 17px;
+	background: #525252;
+	content: '';
+	z-index: -1;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.main_nav ul li.active a::after,
+.main_nav ul li a:hover::after
+{
+	bottom: -5px;
+	visibility: visible;
+	opacity: 1;
+}
+.hamburger
+{
+	display: none;
+	width: 50px;
+	height: 24px;
+	cursor: pointer;
+	padding: 5px;
+	right: -5px;
+}
+.hamburger > div
+{
+	width: 100%;
+	height: 100%;
+}
+.hamburger > div > div
+{
+	height: 2px;
+	background: #FFFFFF;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+.hamburger > div > div:first-child
+{
+	width: 90%;
+}
+.hamburger > div > div:nth-child(2)
+{
+	width: 50%;
+}
+.hamburger > div > div:nth-child(3)
+{
+	width: 70%;
+}
+.hamburger:hover > div > div
+{
+	width: 100%;
+}
+
 .fixed-side-navbar {
 	position: fixed;
 	top: 50%;
@@ -108,7 +280,7 @@
 	background: #000000;
 	padding-left: 50px;
 	padding-right: 51px;
-	padding-top:60px;
+	
 }
 .newsletter_container
 {
@@ -222,13 +394,19 @@
 	color: #6d6d6d;
 	line-height: 67px;
 }
-  a.nav-link{
-	  border: none;
-  }
+
   .jklogo{
 	width: 125px;
     height: 72px;
   }
+  .newsletter_button{
+	height: 39px;
+  }
+
+  a:link {
+    border: none;
+  }
+
 			</style>
 	</head>
 
@@ -258,8 +436,8 @@
 					<div id="main" style="margin-top: 75px;">
 						<article class="thumb">
 							<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" /></a>
-							<h2>Magna feugiat lorem</h2>
-							<p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+							<h2>JK Stage picture </h2>
+							<p>We can give a sample description of the picture here.But not customizable</p>
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" /></a>
