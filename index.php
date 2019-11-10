@@ -10,6 +10,10 @@ include('head.php');
 	background: #000000;
 	color: #FFFFFF;
 }
+.home {
+    width: 100%;
+	height: 947px;
+}
 	</style>
 	<!-- Home -->
 
@@ -114,7 +118,62 @@ include('head.php');
 			</div>
 		</div>
 	</div>
+<!-- Milestones -->
 
+<div class="milestones">
+		<div class="milestones_container">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/2.jpg" data-speed="0.8"></div>
+			<div class="container">
+				<div class="row milestones_row">
+						<!-- Milestone -->
+						<div class="col-xl-3 col-md-6 milestone_col">
+						<div class="milestone d-flex flex-row align-items-center justify-content-start">
+							<div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_content">
+								<div class="milestone_counter" data-end-value="2002">0</div>
+								<div class="milestone_text">Year Started</div>
+							</div>
+						</div>
+					</div>
+					<!-- Milestone -->
+					<div class="col-xl-3 col-md-6 milestone_col">
+						<div class="milestone d-flex flex-row align-items-center justify-content-start">
+							<div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_content">
+								<div class="milestone_counter" data-end-value="3000" data-sign-after="k">0</div>
+								<div class="milestone_text">Setups</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Milestone -->
+					<div class="col-xl-3 col-md-6 milestone_col">
+						<div class="milestone d-flex flex-row align-items-center justify-content-start">
+							<div class="milestone_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_content">
+								<div class="milestone_counter" data-end-value="35">0</div>
+								<div class="milestone_text">Team Members</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Milestone -->
+					<div class="col-xl-3 col-md-6 milestone_col">
+						<div class="milestone d-flex flex-row align-items-center justify-content-start">
+							<div class="milestone_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div>
+							<div class="milestone_content">
+								<div class="milestone_counter" data-end-value="4000" data-sign-after="Sq.Ft">0</div> 
+								<div class="milestone_text">Godown</div>
+							</div>
+						</div>
+					</div>
+
+				
+
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- Footer -->
 	<?php
 	include('foot.php');

@@ -14,6 +14,7 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/about.css">
 
 <!-- Scripts  -->
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -33,6 +34,8 @@
 <script src="js/custom.js"></script>	
 <script src="plugins/fit-vids/jquery.fitvids.js"></script>
 <script src="js/single.js"></script>
+<script src="js/about.js"></script>
+
 <style>
 .jklogo{
 	width: 125px;
@@ -48,21 +51,6 @@
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
 			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo">  JK Stage Production</a></div>
-			<!-- <div class="log_reg">
-				<ul class="d-flex flex-row align-items-start justify-content-start">
-					<li><a href="#">Login</a></li>
-					<li><a href="#">Register</a></li>
-				</ul>
-			</div> -->
-			<!-- <nav class="main_nav">
-				<ul class="d-flex flex-row align-items-start justify-content-start">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="about.html">About us</a></li>
-					<li><a href="music.html">Music</a></li>
-					<li><a href="blog.html">News</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav> -->
 			<div class="fixed-side-navbar">
 				<ul class="nav flex-column">
 					<li class="nav-item"><a class="nav-link" href="index.php"><span>Home</span></a></li>
@@ -82,29 +70,4 @@
 			</div>
 		</div>
 	</header>
-
-	<!-- Menu -->
-
-	<!-- <div class="menu">
-		<div>
-			<div class="menu_overlay"></div>
-			<div class="menu_container d-flex flex-column align-items-start justify-content-center">
-				<div class="menu_log_reg">
-					<ul class="d-flex flex-row align-items-start justify-content-start">
-						<li><a href="#">Login</a></li>
-						<li><a href="#">Register</a></li>
-					</ul>
-				</div>
-				<nav class="menu_nav">
-					<ul class="d-flex flex-column align-items-start justify-content-start">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About us</a></li>
-						<li><a href="music.html">Music</a></li>
-						<li><a href="blog.html">News</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div> -->
-
+	

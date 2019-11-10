@@ -1,17 +1,11 @@
-
-<head>
-<link rel="stylesheet" type="text/css" href="styles/single.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">		
-<link rel="stylesheet" type="text/css" href="styles/single_responsive.css">
+<?php
+include('head.php');
+?>
 <style>
 	.container-gap{
 		padding-top: 90px;
 	}
 	</style>
-</head>
-<?php
-include('head.php');
-?>
 	<!-- Home -->
 	<!-- <div class="home_single">
 		<div class="home_inner_single">
@@ -92,7 +86,6 @@ include('head.php');
 			</div>
 		</div>
 	</div>
-
 <?php
 	include('foot.php');
 	?>
