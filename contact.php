@@ -1,91 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Contact</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Mixtape template project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<?php
+include('head.php');
+?>
 <link rel="stylesheet" type="text/css" href="styles/contact.css">
-<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
-</head>
-<body>
-
-<div class="super_container">
+<style>
+	.container-gap{
+		padding-top: 130px;
+	}
+	.video{
+		padding-top: 80px;
+    padding-bottom: 20px;
+	}
+	.title_text
+{
+	padding-top: 247px;
+	font-size: 45px;
+    margin-bottom: 43px;
+    line-height: 0.75;
+    white-space: nowrap;
+}
+	body
+{
+	font-family: 'Futura', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	background: #990531;
+	color: #FFFFFF;
+}
+.contact_info_list ul li > div:first-child > div {
+    width: 96px;
+    color: #ffff;
+}
+.social ul li a i {
+    font-size: 15px;
+    padding: 5px;
+    color: #ffff;
+}
+.contact_input:hover, .contact_input:focus {
+    border-bottom: solid 3px #990531;
+}
+.contact_button {
+    width: 173px;
+    height: 50px;
+    background: #343434;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: solid 3px #343434;
+    outline: none;
+    cursor: pointer;
+    margin-top: 39px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.contact_button:hover
+{
+	background: #000;
+	color: #FFFFFF;
+}
+.contact_input{
+	color: #ffff;
+}
+.social ul li a i:hover
+{
+	color: #000;
+}
+	</style>
 	
-	<!-- Header -->
-	<header class="header">
-		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="#">Mixtape</a></div>
-			<div class="log_reg">
-				<ul class="d-flex flex-row align-items-start justify-content-start">
-					<li><a href="#">Login</a></li>
-					<li><a href="#">Register</a></li>
-				</ul>
-			</div>
-			<nav class="main_nav">
-				<ul class="d-flex flex-row align-items-start justify-content-start">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About us</a></li>
-					<li><a href="music.html">Music</a></li>
-					<li><a href="blog.html">News</a></li>
-					<li class="active"><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-			<div class="hamburger ml-auto">
-				<div class="d-flex flex-column align-items-end justify-content-between">
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!-- Menu -->
-
-	<div class="menu">
-		<div>
-			<div class="menu_overlay"></div>
-			<div class="menu_container d-flex flex-column align-items-start justify-content-center">
-				<div class="menu_log_reg">
-					<ul class="d-flex flex-row align-items-start justify-content-start">
-						<li><a href="#">Login</a></li>
-						<li><a href="#">Register</a></li>
-					</ul>
-				</div>
-				<nav class="menu_nav">
-					<ul class="d-flex flex-column align-items-start justify-content-start">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About us</a></li>
-						<li><a href="music.html">Music</a></li>
-						<li><a href="blog.html">News</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-
 	<!-- Home -->
-
-	<div class="home">
-		<div class="home_inner">
-			<!-- Image artist: https://unsplash.com/@yoannboyer -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
-			<div class="home_container">
+	<div class="home_single">
+		<div class="home_inner_single">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/2.jpg" data-speed="0.8"></div>
+			<div class="home_container_single">
 				<div class="home_content text-center">
-					<div class="home_subtitle">Just us</div>
-					<div class="home_title">Contact</div>
+					<div class="title_text">Contact us</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
 
 	<!-- Contact -->
 
@@ -146,80 +140,7 @@
 		</div>
 	</div>
 
-	<!-- Footer -->
 
-	<footer class="footer">
-		<div class="footer_container d-flex flex-xl-row flex-column align-items-start justify-content-start">
-			<div class="newsletter_container">
-				<div class="newsletter_title"><h2>Subscribe to our newsletter</h2></div>
-				<form action="#" id="newsletter_form" class="newsletter_form">
-					<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
-					<button class="newsletter_button">Subscribe</button>
-				</form>
-			</div>
-			<div class="footer_lists d-flex flex-sm-row  flex-column align-items-start justify-content-start ml-xl-auto">
-
-				<!-- Useful Links -->
-				<div class="footer_list">
-					<div class="footer_list_title">Useful Links</div>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About us</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Music</a></li>
-						<li><a href="blog.html">News</a></li>
-					</ul>
-				</div>
-
-				<!-- Mixtape -->
-				<div class="footer_list">
-					<div class="footer_list_title">Mixtape</div>
-					<ul>
-						<li><a href="#">Music</a></li>
-						<li><a href="#">PR & Marketing</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Testimonials</a></li>
-					</ul>
-				</div>
-
-				<!-- Connect -->
-				<div class="footer_list">
-					<div class="footer_list_title">Connect</div>
-					<ul>
-						<li><a href="#">Returns</a></li>
-						<li><a href="#">Shippings</a></li>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Social Media</a></li>
-						<li><a href="#">Soundcloud</a></li>
-					</ul>
-				</div>
-
-			</div>
-		</div>
-		<div class="copyright_bar">
-			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</span>
-		</div>
-	</footer>
-</div>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
-<script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
-<script src="js/contact.js"></script>
-</body>
-</html>
+<?php
+	include('foot.php');
+	?>

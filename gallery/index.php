@@ -412,7 +412,7 @@
 
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a style= "border:none;" href="index.php"><img class="jklogo"src="../images/jklogo.png" alt="logo">  JK Stage Production</a></div>
+			<div class="logo"><a style= "border:none;" href="../index.php"><img class="jklogo"src="../images/jklogo.png" alt="logo">  JK Stage Production</a></div>
 		</div>
 	</header>
 
@@ -426,8 +426,8 @@
 					<li class="nav-item"><a class="nav-link" href="../index.php"><span>Home</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="../about.php"><span>About us</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="../gallery"><span>Events</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="blog.php"><span>News</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.php"><span>Contact Us</span></a></li>
+					<!-- <li class="nav-item"><a class="nav-link" href="blog.php"><span>News</span></a></li> -->
+					<li class="nav-item"><a class="nav-link" href="../contact.php"><span>Contact Us</span></a></li>
 				</ul>
 			</div>
 		<!-- End Menu -->
