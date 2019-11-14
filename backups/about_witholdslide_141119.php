@@ -130,7 +130,84 @@ include('head.php');
 			</div>
 		</div>
 	</div>
-	
+<!-- Discs -->
+
+<div class="discs">
+		<div class="container">
+			<div class="row discs_row">
+				
+				<!-- Disc -->
+				<div class="col-xl-4 col-md-6">
+					<div class="disc">
+						<a href="#">
+							<div class="disc_image"><img src="images/about/01.jpeg" alt="https://unsplash.com/@tanelah"></div>
+							<div class="disc_container">
+								<div>
+								<div class="disc_content_1">
+										<!-- <div class="disc_title">Name</div>
+										<div class="disc_subtitle">Description</div> -->
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			<!-- Disc -->
+			<div class="col-xl-4 col-md-6">
+							<div class="disc">
+								<a href="#">
+									<div class="disc_image"><img src="images/about/02.jpeg" alt="https://unsplash.com/@tanelah"></div>
+									<div class="disc_container">
+										<div>
+										<div class="disc_content_1">
+												<!-- <div class="disc_title">Name</div>
+												<div class="disc_subtitle">Description</div> -->
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+				<!-- Disc -->
+				<div class="col-xl-4 col-md-6">
+					<div class="disc">
+						<a href="#">
+							<div class="disc_image"><img src="images/about/03.jpeg" alt="https://unsplash.com/@tanelah"></div>
+							<div class="disc_container">
+								<div>
+								<div class="disc_content_1">
+										<!-- <div class="disc_title">Name</div>
+										<div class="disc_subtitle">Description</div> -->
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- Disc -->
+				<div class="col-xl-4 col-md-6">
+					<div class="disc">
+						<a href="#">
+							<div class="disc_image"><img src="images/about/04.jpeg" alt="https://unsplash.com/@tanelah"></div>
+							<div class="disc_container">
+								<div>
+								<div class="disc_content_1">
+										<!-- <div class="disc_title">Name</div>
+										<div class="disc_subtitle">Description</div> -->
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- slides images -->
+	<div class="slide-imaes">
+
+	</div>
+
 	<!-- Video -->
 
 	<div class="video">
@@ -144,17 +221,6 @@ include('head.php');
 			</div>
 		</div>
 	</div>
-	<div class="video">
-		<div class="container">
-			<div class="row">
-</div></div></div>
-		<!-- slides images -->
-		<div class="slide-imaes">
-		</div>
-
-
-	
-
 <?php
 	include('foot.php');
 	?>
