@@ -67,7 +67,7 @@ include('head.php');
 	<!-- Home -->
 	<div class="home_single">
 		<div class="home_inner_single">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/1.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
 			<div class="home_container_single">
 				<div class="home_content text-center">
 					<div class="title_text">About us</div>
