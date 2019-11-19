@@ -41,6 +41,10 @@
 	width: 125px;
     height: 72px;
 }
+.menu-custom{
+	padding-top: 5px;
+	font-size: 15px;
+}
 </style>
 </head>
 <body>
@@ -51,15 +55,7 @@
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
 			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo">  JK Stage Production</a></div>
-			<div class="fixed-side-navbar">
-				<ul class="nav flex-column">
-					<li class="nav-item"><a class="nav-link" href="index.php"><span>Home</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="about.php"><span>About us</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="gallery"><span>Events</span></a></li>
-					<!-- <li class="nav-item"><a class="nav-link" href="blog.php"><span>News</span></a></li> -->
-					<li class="nav-item"><a class="nav-link" href="contact.php"><span>Contact Us</span></a></li>
-				</ul>
-			</div>
+		
 		
 			<div class="hamburger ml-auto">
 				<div class="d-flex flex-column align-items-end justify-content-between">
@@ -70,4 +66,12 @@
 			</div>
 		</div>
 	</header>
+	<div class="fixed-side-navbar">
+				<ul class="nav flex-column">
+					<li class="nav-item"><a class="nav-link" href="index.php"><span style="padding-top: 5px;font-size: 15px;">Home</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="about.php"><span style="padding-top: 5px;font-size: 15px;">About us</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="gallery"><span style="padding-top: 5px;font-size: 15px;">Events</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="contact.php"><span style="padding-top: 5px;font-size: 15px;">Contact Us</span></a></li>
+				</ul>
+			</div>
 	

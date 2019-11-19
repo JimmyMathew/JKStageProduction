@@ -240,6 +240,8 @@
 	border-right: none;
   }
   .fixed-side-navbar .nav > li a span {
+	width: 150px;
+    height: 30px;
 	display: none;
 	-webkit-transition: all .2s;
 	transition: all .2s;
@@ -250,8 +252,8 @@
 	top: 50%;
 	right: 20px;
 	margin-top: -5px;
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
 	border-radius: 10px;
 	background: rgba(250, 250, 250, 0.75);
 	-webkit-transition: all .3s;
@@ -423,11 +425,10 @@
 		<!-- Menu -->
 		<div class="fixed-side-navbar">
 				<ul class="nav flex-column">
-					<li class="nav-item"><a class="nav-link" href="../index.php"><span>Home</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="../about.php"><span>About us</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="../gallery"><span>Events</span></a></li>
-					<!-- <li class="nav-item"><a class="nav-link" href="blog.php"><span>News</span></a></li> -->
-					<li class="nav-item"><a class="nav-link" href="../contact.php"><span>Contact Us</span></a></li>
+				<li class="nav-item"><a class="nav-link" href="../index.php"><span style="padding-top: 5px;font-size: 15px;">Home</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="../about.php"><span style="padding-top: 5px;font-size: 15px;">About us</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="../gallery.php"><span style="padding-top: 5px;font-size: 15px;">Events</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="../contact.php"><span style="padding-top: 5px;font-size: 15px;">Contact Us</span></a></li>
 				</ul>
 			</div>
 		<!-- End Menu -->
