@@ -54,9 +54,7 @@
 	<!-- Header -->
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo">  JK Stage Production</a></div>
-		
-		
+			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo"></a></div>
 			<div class="hamburger ml-auto">
 				<div class="d-flex flex-column align-items-end justify-content-between">
 					<div></div>

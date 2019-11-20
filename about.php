@@ -36,8 +36,8 @@ include('head.php');
 .slide-imaes {
     background-image: url(./images/about/ImageSlider.jpg);
     background-repeat: repeat-x;
-    animation: slideleft 20000s infinite linear;
-    -webkit-animation: slideleft 2000s infinite linear;
+    animation: slideleft 9000s infinite linear;
+    -webkit-animation: slideleft 9000s infinite linear;
     background-size: cover;
     min-height: 500px;
 }
@@ -95,27 +95,22 @@ include('head.php');
 					<!-- <div class="single_title">About us</div> -->
 						<div class="single_text">
 						<p>
-							JK Stage Production was established in 2004. It is located in Chennai, Tamil Nadu with convenient transportation access.
+						JK Stage Production is a Lighting Truss Fabrication & Stage Truss Innovation. We provide a Standard or Customized Aluminum TRUSS used in
+						 many applications such as Concert and Stage Lighting.  
+						We build custom stage, roof system and platform. 
 						</p>
 
 						<p>
-							The company's factory environment is clean and tidy, high-quality management team, well-trained industrial workers, 
-							fast information transmission and meticulous customer management system make the company basically 
-							have the standards of modern production enterprises.
+						Founded in 2002, has a large and modern fabrication. We have a skilled team of 35 
+						members to deliver the highest quality service to our customers. 
+						We have a large go down of 4000 sq ft. 
 						</p>
 						<p>
-						The raw materials of all products are in accordance with the standards of international products and the quality 
-						management system has passed ISO 0000:0000 certification.
+						JK Stage Production offers service throughout Tamil Nadu. Our TRUSS is safe, reliable and high quality.
 						</p>
 
 						<p>
-							The company's main steel/aluminum alloy stage, steel/aluminum alloy truss, folding stage, wedding stage, lighting stand, 
-							chorus, glass stage, grandstand and scaffolding and other products with very strong production capacity of large enterprises.
-						</p>
-						<p>
-							Dedicated to strict quality control and thoughtful customer service, our experienced 
-							staff members are always available to discuss your requirements and ensure full customer satisfaction. 
-							In recent years, our company has introduced a series of advanced equipment.
+						With innovative vision and superior customer service, JK Stage Production is ready meet the staging needs.
 						</p>
 						</div>
 						<!-- <div class="logo_list d-flex flex-row align-items-center justify-content-start flex-wrap">
@@ -132,21 +127,29 @@ include('head.php');
 	</div>
 	
 	<!-- Video -->
-
-	<div class="video">
+	
+	<!-- <div class="video">
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="video_container">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/OsKLytDnKGA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<video width="560" height="315" controls>
+						<source src="videos/jkvideo.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+						</video>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/OsKLytDnKGA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="video">
 		<div class="container">
 			<div class="row">
+			<video width="560" height="315" controls>
+						<source src="videos/jkvideo.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+						</video>
 </div></div></div>
 		<!-- slides images -->
 		<div class="slide-imaes">

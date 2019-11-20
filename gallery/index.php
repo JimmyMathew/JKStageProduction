@@ -21,7 +21,7 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: #000000;
+	background: #fff;
 	z-index: 100;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -31,13 +31,13 @@
 }
 .header.scrolled
 {
-	background: #000000;
-	opacity: 0.5;  
+	background: rgb(255,255,255,0.85);
+	
 }
 .header_content
 {
 	width: 100%;
-	height: 75px;
+	height: 74px;
 	padding-left: 51px;
 	padding-right: 52px;
 	-webkit-transition: all 400ms ease;
@@ -279,10 +279,9 @@
   }
   .footer
 {
-	background: #000000;
+	background: #fff;
 	padding-left: 50px;
 	padding-right: 51px;
-	
 }
 .newsletter_container
 {
@@ -388,7 +387,7 @@
 {
 	width: 100%;
 	height: 67px;
-	background: #000000;
+	background: #fff;
 }
 .copyright_bar span
 {
@@ -414,7 +413,7 @@
 
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a style= "border:none;" href="../index.php"><img class="jklogo"src="../images/jklogo.png" alt="logo">  JK Stage Production</a></div>
+			<div class="logo"><a style= "border:none;" href="../index.php"><img class="jklogo"src="../images/jklogo.png" alt="logo"></a></div>
 		</div>
 	</header>
 

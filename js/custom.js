@@ -108,7 +108,7 @@ $(document).ready(function()
 				items:1,
 				loop:true,
 				autoplay:true,
-				autoplayTimeout:8000,
+				autoplayTimeout:3000,
 				smartSpeed:1200,
 				autoplaySpeed:1200,
 				dotsSpeed:1200,
