@@ -124,7 +124,7 @@ include('head.php');
 								</li>
 							</ul>
 						</div>
-						<div class="social">
+						<!-- <div class="social">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
 								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -133,7 +133,7 @@ include('head.php');
 								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>

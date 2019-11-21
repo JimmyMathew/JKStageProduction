@@ -349,7 +349,7 @@ section
 .log_reg ul li:not(:last-child)::after
 {
 	display: inline-block;
-	content: '/';
+	content: ' ';
 	font-size: 14px;
 	color: #FFFFFF;
 	margin-left: 6px;
@@ -362,7 +362,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #de4f33;
+	color: #990531;
 }
 .main_nav ul li:not(:last-child)
 {

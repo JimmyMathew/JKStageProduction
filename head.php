@@ -55,12 +55,19 @@
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
 			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo"></a></div>
-			<div class="hamburger ml-auto">
-				<div class="d-flex flex-column align-items-end justify-content-between">
-					<div></div>
-					<div></div>
-					<div></div>
-				</div>
+			<div class="log_reg">
+				<ul class="d-flex flex-row align-items-start justify-content-start">
+				<div class="social">
+							<ul class="d-flex flex-row align-items-center justify-content-start">
+								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+				</ul>
 			</div>
 		</div>
 	</header>
