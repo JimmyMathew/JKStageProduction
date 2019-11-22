@@ -64,7 +64,7 @@ include('head.php');
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<!-- <div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div> -->
 							<div class="milestone_content">
-								<div class="milestone_counter" data-end-value="2002">0</div>
+								<div class="milestone_counter" data-end-value="2001">0</div>
 								<div class="milestone_text">Year Started</div>
 							</div>
 						</div>
@@ -74,7 +74,7 @@ include('head.php');
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<!-- <div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div> -->
 							<div class="milestone_content">
-								<div class="milestone_counter" data-end-value="3" data-sign-after="K">0</div>
+								<div class="milestone_counter" data-end-value="3" data-sign-after="K+">0</div>
 								<div class="milestone_text">Setups</div>
 							</div>
 						</div>

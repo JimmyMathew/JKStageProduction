@@ -21,7 +21,7 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: #000;
+	background: #990531;
 	z-index: 100;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -31,8 +31,7 @@
 }
 .header.scrolled
 {
-	background: rgb(255,255,255,0.85);
-	
+	background: rgb(153,5,49,0.85);
 }
 .header_content
 {
@@ -64,7 +63,7 @@
 .logo a
 {
 	font-family: 'Futura', sans-serif;
-	font-size: 30px;
+	font-size: 18px;
 	color: #FFFFFF;
 }
 .log_reg
@@ -98,7 +97,7 @@
 }
 .log_reg ul li a:hover
 {
-	color: #990531;;
+	color: #000;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -279,7 +278,7 @@
   }
   .footer
 {
-	background: #fff;
+	background: #990531;;
 	padding-left: 50px;
 	padding-right: 51px;
 }
@@ -387,19 +386,23 @@
 {
 	width: 100%;
 	height: 67px;
-	background: #fff;
+	background: #990531;
 }
 .copyright_bar span
 {
 	font-size: 14px;
-	color: #6d6d6d;
+	color: #fff;
 	line-height: 67px;
 }
 
-  .jklogo{
+.jklogo{
 	width: 125px;
-    height: 72px;
-  }
+    height: 60px;
+}
+.menu-custom{
+	padding-top: 5px;
+	font-size: 15px;
+}
   .newsletter_button{
 	height: 39px;
   }
@@ -436,9 +439,9 @@
 	font-size: 14px;
 	color: #FFFFFF;
 }
-.log_reg ul li a:hover
+.social ul li a i:hover
 {
-	color: #990531;
+	color: #000;
 }
 
 			</style>
@@ -446,7 +449,7 @@
 
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a style= "border:none;" href="../index.php"><img class="jklogo"src="../images/jklogo.png" alt="logo"></a></div>
+		<div class="logo"><a href="../index.php"><img class="jklogo"src="../images/logo/logo1.png" alt="logo"> Where You Can Trust On Truss…</a></div>
 			<div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 				<div class="social">
@@ -536,7 +539,7 @@
 		
 		<div class="copyright_bar">
 			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Developed by <a href="https://jimmymathew.in" target="_blank">Jimmy Mathew</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a style="color:#000;" href="https://colorlib.com" target="_blank">Colorlib</a> | Developed by <a style="color:#000;" href="https://jimmymathew.in" target="_blank">Jimmy Mathew</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </span>
 		</div>

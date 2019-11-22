@@ -69,7 +69,7 @@ ul
 p
 {
 	font-family: 'Futura', sans-serif;
-	font-size: 14px;
+	font-size: 17px;
 	line-height: 2.18;
 	font-weight: 400;
 	color: #FFFFFF;
@@ -293,7 +293,7 @@ section
 	left: 0;
 	top: 0;
 	width: 100%;
-	background: #000;
+	background: #990531;
 	z-index: 100;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -303,8 +303,7 @@ section
 }
 .header.scrolled
 {
-	background: rgb(255,255,255,0.85);
-	
+	background: rgb(153,5,49,0.85);
 }
 .header_content
 {
@@ -336,7 +335,7 @@ section
 .logo a
 {
 	font-family: 'Futura', sans-serif;
-	font-size: 30px;
+	font-size: 18px;
 	color: #FFFFFF;
 }
 .log_reg
@@ -370,7 +369,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #990531;
+	color: #000;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -1123,7 +1122,7 @@ section
 
 .footer
 {
-	background: #fff;
+	background: #990531;
 	padding-left: 50px;
 	padding-right: 51px;
 }
@@ -1231,11 +1230,11 @@ section
 {
 	width: 100%;
 	height: 67px;
-	background: #fff;
+	background: #990531;
 }
 .copyright_bar span
 {
 	font-size: 14px;
-	color: #6d6d6d;
+	color: #fff;
 	line-height: 67px;
 }

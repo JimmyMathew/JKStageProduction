@@ -39,12 +39,13 @@
 <style>
 .jklogo{
 	width: 125px;
-    height: 72px;
+    height: 60px;
 }
 .menu-custom{
 	padding-top: 5px;
 	font-size: 15px;
 }
+
 </style>
 </head>
 <body>
@@ -54,7 +55,7 @@
 	<!-- Header -->
 	<header class="header">
 		<div class="header_content d-flex flex-row align-items-center justify-content-center">
-			<div class="logo"><a href="index.php"><img class="jklogo"src="images/jklogo.png" alt="logo"></a></div>
+			<div class="logo"><a href="index.php"><img class="jklogo"src="images/logo/logo1.png" alt="logo"> Where You Can Trust On Truss…</a></div>
 			<div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 				<div class="social">

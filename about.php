@@ -128,29 +128,26 @@ include('head.php');
 	
 	<!-- Video -->
 	
-	<!-- <div class="video">
+	<div class="video">
 		<div class="container">
 			<div class="row">
 				<div class="col">
 					<div class="video_container">
-					<video width="560" height="315" controls>
-						<source src="videos/jkvideo.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-						</video>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/OsKLytDnKGA?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/v4-OtHj-I3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div> -->
-	<div class="video">
+	</div>
+	<!-- <div class="video">
 		<div class="container">
 			<div class="row">
 			<video width="560" height="315" controls>
 						<source src="videos/jkvideo.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 						</video>
-</div></div></div>
+</div></div></div> -->
 		<!-- slides images -->
 		<div class="slide-imaes">
 		</div>

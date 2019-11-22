@@ -1,7 +1,7 @@
 <?php
 include('head.php');
 ?>
-<link rel="stylesheet" type="text/css" href="styles/contact.css">
+
 <style>
 	.container-gap{
 		padding-top: 130px;
@@ -62,10 +62,114 @@ include('head.php');
 .contact_input{
 	color: #ffff;
 }
-.social ul li a i:hover
+
+
+/*********************************
+6. Contact
+*********************************/
+
+.contact
+{
+	padding-top: 101px;
+	padding-bottom: 105px;
+}
+.contact_title
+{
+	font-size: 36px;
+	color: #FFFFFF;
+	line-height: 1.2;
+}
+.contact_form
+{
+	display: block;
+	width: 100%;
+	margin-top: 59px;
+}
+.contact_input
+{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: #343434;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	border-bottom: solid 3px transparent;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.contact_textarea
+{
+	height: 161px;
+	padding-top: 18px;
+}
+.contact_form input:not(:last-child)
+{
+	margin-bottom: 20px;
+}
+.contact_input::-webkit-input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+.contact_text
+{
+	margin-top: 30px;
+}
+.contact_info_list
+{
+	margin-top: 84px;
+	padding-left: 13px;
+}
+.contact_info_list ul li
+{
+	font-size: 16px;
+	color: #aaaaaa;
+}
+.contact_info_list ul li:not(:last-of-type)
+{
+	margin-bottom: 24px;
+}
+
+.log_reg ul li a:hover
 {
 	color: #000;
 }
+
+
 	</style>
 	
 	<!-- Home -->
@@ -112,7 +216,8 @@ include('head.php');
 							<ul>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div><div>Address</div></div>
-									<div>1481 Creekside Lane Avila Beach, CA 931</div>
+									<div>No 3/12, Gandhi Nagar Main Road, Palavakkam, Chennai-600 041</div>
+									
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div><div>Phone</div></div>
