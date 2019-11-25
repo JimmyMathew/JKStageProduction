@@ -1,11 +1,15 @@
 <?php
 include('head.php');
 ?>
+ <link href="./plugins/ninja/ninja-slider.css" rel="stylesheet" type="text/css" />
+      <link href="./plugins/ninja/thumbs.css" rel="stylesheet" type="text/css" />
+      <script src="./plugins/ninja/ninjaVideoPlugin.js"></script>
+      <script src="./plugins/ninja/ninja-slider.js" type="text/javascript"></script>
 <style>
 	.container-gap{
 		padding-top: 130px;
 	}
-	.video{
+	.video-container{
 		padding-top: 80px;
     padding-bottom: 20px;
 	}
@@ -67,7 +71,7 @@ include('head.php');
 	<!-- Home -->
 	<div class="home_single">
 		<div class="home_inner_single">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/about.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/test/4.jpeg"  data-speed="0.8"></div>
 			<div class="home_container_single">
 				<div class="home_content text-center">
 					<div class="title_text">About us</div>
@@ -85,7 +89,7 @@ include('head.php');
 				<!-- Single Info -->
 				<div class="col-lg-5">
 					<div class="single_info">
-						<div class="single_image"><img src="images/single_image.jpg" alt=""></div>
+						<div class="single_image"><img style="height: 400px;" src="images/test/13.jpeg" alt=""></div>
 					</div>
 				</div>
 
@@ -113,12 +117,7 @@ include('head.php');
 						With innovative vision and superior customer service, JK Stage Production is ready meet the staging needs.
 						</p>
 						</div>
-						<!-- <div class="logo_list d-flex flex-row align-items-center justify-content-start flex-wrap">
-							<div><a href="#"><img src="images/logo_1.png" alt=""></a></div>
-							<div><a href="#"><img src="images/logo_2.png" alt=""></a></div>
-							<div><a href="#"><img src="images/logo_3.png" alt=""></a></div>
-							<div><a href="#"><img src="images/logo_4.png" alt=""></a></div>
-						</div> -->
+					
 					</div>
 				</div>
 
@@ -128,14 +127,50 @@ include('head.php');
 	
 	<!-- Video -->
 	
-	<div class="video">
+	<div class="video-container">
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="video_container">
-				
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/v4-OtHj-I3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					</div>
+					<div id='ninja-slider'>
+                                             <div class="slider-inner">
+                                                   <ul>
+                                                      <!-- For Youtube videos, use this link -->
+                                                      <!-- <li>
+                                                         <div class="video">
+                                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/_dlBmu51E7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                         </div>
+                                                         <a class="ns-img" href="img/2.jpg"></a>
+                                                         <div class="caption">Supports Youtube, Vimeo and HTML video/audio</div>
+                                                         <div class="video-playbutton-layer"></div>
+                                                      </li> -->
+                                                         <li>
+                                                            <div class="video">
+                                                                  <video controls data-autoplay="false">
+                                                                     <source src="./videos/video1.mp4" type="video/mp4" />
+                                                                  </video>
+                                                            </div>
+                                                            <a class="ns-img" href="./videos/thumbs/1.jpg"></a>
+                                                            <div class="video-playbutton-layer"></div>
+                                                         </li>
+                                                         <li>
+                                                            <div class="video">
+                                                                  <video controls data-autoplay="false">
+                                                                     <source src="./videos/video2.mp4" type="video/mp4" />
+                                                                  </video>
+                                                            </div>
+                                                            <a class="ns-img" href="./videos/thumbs/2.jpg"></a>
+                                                            <div class="video-playbutton-layer"></div>
+                                                         </li>
+                                                  
+                                                   </ul>
+                                                   <!-- <div class="fs-icon"></div> -->
+                                             </div>
+                                             <div id="thumbs">
+                                                  
+                                                   <span onclick="nslider.playVideo(0)"><img src="./videos/thumbs/1.jpg" /><span class="playvideo">AUTO</span></span>
+                                                   <span onclick="nslider.playVideo(1)"><img src="./videos/thumbs/2.jpg" /><span class="playvideo">AUTO</span></span>
+                                             </div>
+                                          </div>
 				</div>
 			</div>
 		</div>

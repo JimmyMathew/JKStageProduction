@@ -147,11 +147,11 @@ include('head.php');
 }
 .contact_text
 {
-	margin-top: 30px;
+	margin-top: 58px;
 }
 .contact_info_list
 {
-	margin-top: 84px;
+	margin-top: 0px;
 	padding-left: 13px;
 }
 .contact_info_list ul li
@@ -175,7 +175,7 @@ include('head.php');
 	<!-- Home -->
 	<div class="home_single">
 		<div class="home_inner_single">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/test/1.jpeg" data-speed="0.8"></div>
 			<div class="home_container_single">
 				<div class="home_content text-center">
 					<div class="title_text">Contact us</div>
@@ -198,6 +198,7 @@ include('head.php');
 						<form action="#" class="contact_form" id="contact_form">
 							<input type="text" class="contact_input" placeholder="Name" required="required">
 							<input type="email" class="contact_input" placeholder="E-mail" required="required">
+							<input type="mobile" class="contact_input" placeholder="Mobile" required="required">
 							<input type="text" class="contact_input" placeholder="Subject">
 							<textarea class="contact_input contact_textarea" placeholder="Message" required="required"></textarea>
 							<button class="contact_button">Send Message</button>
@@ -210,7 +211,7 @@ include('head.php');
 					<div class="contact_info">
 						<div class="contact_title">Where to find us</div>
 						<div class="contact_text">
-							<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
+						<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="443" id="gmap_canvas" src="https://maps.google.com/maps?q=%20No%203%2F12%2C%20Gandhi%20Nagar%20Main%20Road%2C%20Palavakkam%2C%20Chennai-600%20041&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
 						</div>
 						<div class="contact_info_list">
 							<ul>
