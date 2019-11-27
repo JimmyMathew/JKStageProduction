@@ -479,6 +479,7 @@
 				<ul class="nav flex-column">
 				<li class="nav-item"><a class="nav-link" href="../index.php"><span style="padding-top: 5px;font-size: 15px;">Home</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="../about.php"><span style="padding-top: 5px;font-size: 15px;">About us</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="../service.php"><span style="padding-top: 5px;font-size: 15px;">Service</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="./"><span style="padding-top: 5px;font-size: 15px;">Events</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="../contact.php"><span style="padding-top: 5px;font-size: 15px;">Contact Us</span></a></li>
 				</ul>
@@ -546,6 +547,30 @@
 						<article class="thumb">
 							<a href="images/fulls/16.jpg" class="image"><img src="images/thumbs/16.jpg" alt="" /></a>
 						</article>
+						<article class="thumb">
+							<a href="images/fulls/17.jpg" class="image"><img src="images/thumbs/17.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/18.jpg" class="image"><img src="images/thumbs/18.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/19.jpg" class="image"><img src="images/thumbs/19.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/20.jpg" class="image"><img src="images/thumbs/20.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/21.jpg" class="image"><img src="images/thumbs/21.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/22.jpg" class="image"><img src="images/thumbs/22.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/23.jpg" class="image"><img src="images/thumbs/23.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/24.jpg" class="image"><img src="images/thumbs/24.jpg" alt="" /></a>
+						</article>
 					</div>
 
 			
@@ -554,7 +579,7 @@
 		
 		<div class="copyright_bar">
 			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a style="color:#000;" href="https://colorlib.com" target="_blank">Colorlib</a> | Developed by <a style="color:#000;" href="https://jimmymathew.in" target="_blank">Jimmy Mathew</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by <a style="color: #fff;" href="https://jimmymathew.in" target="_blank">Jimmy Mathew</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </span>
 		</div>

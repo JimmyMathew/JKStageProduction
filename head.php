@@ -81,6 +81,7 @@
 				<ul class="nav flex-column">
 					<li class="nav-item"><a class="nav-link" href="index.php"><span style="padding-top: 5px;font-size: 15px;">Home</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="about.php"><span style="padding-top: 5px;font-size: 15px;">About us</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="service.php"><span style="padding-top: 5px;font-size: 15px;">Service</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="gallery"><span style="padding-top: 5px;font-size: 15px;">Events</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="contact.php"><span style="padding-top: 5px;font-size: 15px;">Contact Us</span></a></li>
 				</ul>

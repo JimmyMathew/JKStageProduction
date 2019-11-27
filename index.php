@@ -7,10 +7,11 @@ include('head.php');
 	font-family: 'Futura', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
-	background: #000000;
+	background: #00000;
 	color: #FFFFFF;
 }
 .home {
+	margin-top: 80px;
     width: 100%;
 	height: 947px;
 }
@@ -65,20 +66,27 @@ include('head.php');
 						</div>
 					</div>
 				</div>
+				<!-- Slide -->
+				<div class="owl-item">
+					<div class="background_image" style="background-image:url(images/slider/6.jpg)"></div>
+					<div class="home_container">
+						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+
 <!-- Milestones -->
 
 <div class="milestones">
-		<div class="milestones_container">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/test/milestones.jpg" data-speed="0.8"></div>
+		<div class="milestones_container" style="background-image: url('images/pages/milestones.jpg');background-repeat: no-repeat;background-size: 100% 100%;">
 			<div class="container">
 				<div class="row milestones_row">
 						<!-- Milestone -->
 						<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<!-- <div class="milestone_icon"><img src="images/icon_4.svg" alt="https://www.flaticon.com/authors/smashicons"></div> -->
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="2001">0</div>
 								<div class="milestone_text">Year Started</div>
@@ -88,7 +96,6 @@ include('head.php');
 					<!-- Milestone -->
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<!-- <div class="milestone_icon"><img src="images/icon_1.svg" alt="https://www.flaticon.com/authors/smashicons"></div> -->
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="3" data-sign-after="K+">0</div>
 								<div class="milestone_text">Setups</div>
@@ -99,7 +106,6 @@ include('head.php');
 					<!-- Milestone -->
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<!-- <div class="milestone_icon"><img src="images/icon_2.svg" alt="https://www.flaticon.com/authors/smashicons"></div> -->
 							<div class="milestone_content">
 								<div class="milestone_counter" data-end-value="35">0</div>
 								<div class="milestone_text">Team Members</div>
@@ -110,10 +116,9 @@ include('head.php');
 					<!-- Milestone -->
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
-							<!-- <div class="milestone_icon"><img src="images/icon_3.svg" alt="https://www.flaticon.com/authors/smashicons"></div> -->
 							<div class="milestone_content">
-								<div class="milestone_counter" data-end-value="4000" data-sign-after="Sq.Ft">0</div> 
-								<div class="milestone_text">Godown</div>
+								<div class="milestone_counter" data-end-value="12000" data-sign-after="Sq.Ft">0</div> 
+								<div class="milestone_text">Godown Space</div>
 							</div>
 						</div>
 					</div>
@@ -123,6 +128,7 @@ include('head.php');
 				</div>
 			</div>
 		</div>
+
 	</div>
 	<!-- Footer -->
 	<?php

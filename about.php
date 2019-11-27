@@ -71,7 +71,7 @@ include('head.php');
 	<!-- Home -->
 	<div class="home_single">
 		<div class="home_inner_single">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/test/4.jpeg"  data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/pages/about.jpg"  data-speed="0.8"></div>
 			<div class="home_container_single">
 				<div class="home_content text-center">
 					<div class="title_text">About us</div>
@@ -85,14 +85,6 @@ include('head.php');
 	<div class="single">
 		<div class="container container-gap">
 			<div class="row">
-				
-				<!-- Single Info -->
-				<!-- <div class="col-lg-5">
-					<div class="single_info">
-						<div class="single_image"><img style="height: 400px;" src="images/test/13.jpeg" alt=""></div>
-					</div>
-				</div> -->
-
 				<!-- Single Content -->
 				<div class="col-lg-12 single_content_col">
 					<div class="single_content">
