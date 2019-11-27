@@ -87,32 +87,41 @@ include('head.php');
 			<div class="row">
 				
 				<!-- Single Info -->
-				<div class="col-lg-5">
+				<!-- <div class="col-lg-5">
 					<div class="single_info">
 						<div class="single_image"><img style="height: 400px;" src="images/test/13.jpeg" alt=""></div>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- Single Content -->
-				<div class="col-lg-7 single_content_col">
+				<div class="col-lg-12 single_content_col">
 					<div class="single_content">
 					<!-- <div class="single_title">About us</div> -->
 						<div class="single_text">
 						<p>
-						JK Stage Production is a Lighting Truss Fabrication & Stage Truss Innovation. We provide a Standard or Customized Aluminum TRUSS used in
-						 many applications such as Concert and Stage Lighting.  
-						We build custom stage, roof system and platform. 
-						</p>
-
-						<p>
-						Founded in 2002, has a large and modern fabrication. We have a skilled team of 35 
-						members to deliver the highest quality service to our customers. 
-						We have a large go down of 4000 sq ft. 
+						JK Stage Production is a Lighting Truss Fabrication & Stage Truss Innovation.
+						We provide a Standard or Customized Aluminum TRUSS used in many applications such as Concert and Stage Lighting. 
+						We build custom stage, roof system and platform.
 						</p>
 						<p>
-						JK Stage Production offers service throughout Tamil Nadu. Our TRUSS is safe, reliable and high quality.
+						JK Stage Production was established in 2001. It is located in Chennai, Tamil Nadu with convenient transportation access. 
 						</p>
-
+						<p>
+						The company's factory environment is clean and tidy, high-quality management team, well-trained industrial workers, 
+						fast information transmission and meticulous customer management system make the company basically 
+						have the standards of modern production enterprises.
+						</p>
+						<p>	
+						The company's main steel/aluminum alloy stage, steel/aluminum alloy truss, folding stage, wedding stage, lighting stand, 
+						chorus, glass stage, grandstand and scaffolding and other products with very strong production capacity of large enterprises.
+						</p>
+						<p>
+						Dedicated to strict quality control and thoughtful customer service, our experienced staff members are always available 
+						to discuss your requirements and ensure full customer satisfaction. In recent years, our company has introduced a series of advanced equipment.
+						</p>
+						<p>
+						Our TRUSS is safe, reliable and high quality. With innovative vision and superior customer service, JK Stage Production is ready meet the staging needs.
+						</p>
 						<p>
 						With innovative vision and superior customer service, JK Stage Production is ready meet the staging needs.
 						</p>

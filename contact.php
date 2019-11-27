@@ -151,7 +151,7 @@ include('head.php');
 }
 .contact_info_list
 {
-	margin-top: 0px;
+	margin-top: 17px;
 	padding-left: 13px;
 }
 .contact_info_list ul li
@@ -211,7 +211,7 @@ include('head.php');
 					<div class="contact_info">
 						<div class="contact_title">Where to find us</div>
 						<div class="contact_text">
-						<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="443" id="gmap_canvas" src="https://maps.google.com/maps?q=%20No%203%2F12%2C%20Gandhi%20Nagar%20Main%20Road%2C%20Palavakkam%2C%20Chennai-600%20041&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+						<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="440" id="gmap_canvas" src="https://maps.google.com/maps?q=Gandhi%20Nagar%20Main%20Rd%20Palavakkam%20Tamil%20Nadu%20600041&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:443px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:443px;width:600px;}</style></div>
 						</div>
 						<div class="contact_info_list">
 							<ul>
@@ -222,11 +222,12 @@ include('head.php');
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div><div>Phone</div></div>
-									<div>+53 345 7953 32453</div>
+									<div><b>JK: </b>+91 9841150504 <br/><b>Anand: </b>+91 7708050504, +91 9841657450</div>
+									
 								</li>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div><div>E-mail</div></div>
-									<div>yourmail@gmail.com</div>
+									<div>info@jkstageproduction.com</div>
 								</li>
 							</ul>
 						</div>

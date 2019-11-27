@@ -457,8 +457,8 @@
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 				<div class="social">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/ragul3324/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=833951729" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
 								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
@@ -479,7 +479,7 @@
 				<ul class="nav flex-column">
 				<li class="nav-item"><a class="nav-link" href="../index.php"><span style="padding-top: 5px;font-size: 15px;">Home</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="../about.php"><span style="padding-top: 5px;font-size: 15px;">About us</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="../gallery.php"><span style="padding-top: 5px;font-size: 15px;">Events</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="./"><span style="padding-top: 5px;font-size: 15px;">Events</span></a></li>
 					<li class="nav-item"><a class="nav-link" href="../contact.php"><span style="padding-top: 5px;font-size: 15px;">Contact Us</span></a></li>
 				</ul>
 			</div>
@@ -533,6 +533,18 @@
 						</article>
 						<article class="thumb">
 							<a href="images/fulls/12.jpg" class="image"><img src="images/thumbs/12.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/13.jpg" class="image"><img src="images/thumbs/13.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/14.jpg" class="image"><img src="images/thumbs/14.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/15.jpg" class="image"><img src="images/thumbs/15.jpg" alt="" /></a>
+						</article>
+						<article class="thumb">
+							<a href="images/fulls/16.jpg" class="image"><img src="images/thumbs/16.jpg" alt="" /></a>
 						</article>
 					</div>
 

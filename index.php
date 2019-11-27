@@ -65,14 +65,6 @@ include('head.php');
 						</div>
 					</div>
 				</div>
-				<!-- Slide -->
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/slider/6.jpg)"></div>
-					<div class="home_container">
-						<div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -80,7 +72,7 @@ include('head.php');
 
 <div class="milestones">
 		<div class="milestones_container">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/test/7.jpeg" data-speed="0.8"></div>
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/test/milestones.jpg" data-speed="0.8"></div>
 			<div class="container">
 				<div class="row milestones_row">
 						<!-- Milestone -->
