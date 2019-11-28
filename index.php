@@ -117,7 +117,7 @@ include('head.php');
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<div class="milestone_content">
-								<div class="milestone_counter" data-end-value="12K" data-sign-after="Sq.Ft">0</div> 
+								<div class="milestone_counter" data-end-value="12K " data-sign-after="Sq.Ft">0</div> 
 								<div class="milestone_text">Godown Space</div>
 							</div>
 						</div>

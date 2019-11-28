@@ -1105,13 +1105,13 @@ section
 }
 .milestone_counter
 {
-	font-size: 60px;
+	font-size: 40px;
 	color: #FFFFFF;
 	line-height: 0.75;
 }
 .milestone_text
 {
-	font-size: 27px;
+	font-size: 22px;
 	color: #FFFFFF;
 	line-height: 0.75;
 	margin-top: 24px;

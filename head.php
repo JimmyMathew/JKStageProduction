@@ -48,8 +48,9 @@
 	padding-top: 5px;
 	font-size: 15px;
 }
-.footer a{
-	
+.social-icon{
+	width: 20px;
+    height: 20px;
 }
 </style>
 </head>
@@ -65,12 +66,10 @@
 				<ul class="d-flex flex-row align-items-start justify-content-start">
 				<div class="social">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<li><a href="https://www.instagram.com/ragul3324/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a href="https://www.facebook.com/profile.php?id=833951729" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=833951729" target="_blank"><img class="social-icon" src="images/social/facebook.png" alt="Facebook"/></a></li>	
+							<li><a href="https://www.instagram.com/ragul3324/" target="_blank"><img class="social-icon" src="images/social/instagram.png" alt="Instagram"/></a></li>
+							<li><a href="#"><img class="social-icon" src="images/social/twitter.png" alt="Twitter"/></a></li>
+							
 							</ul>
 						</div>
 				</ul>
