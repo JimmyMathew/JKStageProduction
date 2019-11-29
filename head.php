@@ -40,10 +40,7 @@
 <script src="js/about.js"></script>
 
 <style>
-.jklogo{
-	width: 125px;
-    height: 60px;
-}
+
 .menu-custom{
 	padding-top: 5px;
 	font-size: 15px;

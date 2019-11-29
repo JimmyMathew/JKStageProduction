@@ -10,11 +10,7 @@ include('head.php');
 	background: #00000;
 	color: #FFFFFF;
 }
-.home {
-	margin-top: 80px;
-    width: 100%;
-	height: 947px;
-}
+
 	</style>
 	<!-- Home -->
 
@@ -107,7 +103,7 @@ include('head.php');
 					<div class="col-xl-3 col-md-6 milestone_col">
 						<div class="milestone d-flex flex-row align-items-center justify-content-start">
 							<div class="milestone_content">
-								<div class="milestone_counter" data-end-value="35">0</div>
+								<div class="milestone_counter" data-end-value="36">0</div>
 								<div class="milestone_text">Team Members</div>
 							</div>
 						</div>

@@ -85,11 +85,17 @@ include('head.php');
 	<div class="single">
 		<div class="container container-gap">
 			<div class="row">
+			
 				<!-- Single Content -->
 				<div class="col-lg-12 single_content_col">
 					<div class="single_content">
 						<div class="single_text">
-						<h1>Page under construction...</h1>
+						<h3><i class="fa fa-circle-o" style="font-size:15px"></i> Roofing Truss</h3><br/>
+						<h3><i class="fa fa-circle-o" style="font-size:15px"></i> Stage Works</h3><br/>
+						<h3><i class="fa fa-circle-o" style="font-size:15px"></i> Set Fabrication</h3><br/>
+						<h3><i class="fa fa-circle-o" style="font-size:15px"></i> Stall & Exhibition</h3><br/>
+						<h3><i class="fa fa-circle-o" style="font-size:15px"></i> Marriage Decor</h3><br/>
+						<h3><i class="fa fa-circle-o" style="font-size:15px"></i> Product Unveiling Motorised</h3><br/>
 						</div>
 					
 					</div>
@@ -98,6 +104,11 @@ include('head.php');
 			</div>
 		</div>
 	</div>
-
+	
+	<div class="slide-imaes">
+		</div>
+		<?php
+	include('foot.php');
+	?>
 
 	

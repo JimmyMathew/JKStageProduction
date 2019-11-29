@@ -450,6 +450,31 @@
 	width: 20px;
     height: 20px;
 }
+/* Mobile responsive queries  */
+@media only screen and (max-width: 320px) {
+	.copyright_bar span {
+	font-size: 6px;
+	}
+	.logo a {
+		font-size: 8px;
+	}
+	.jklogo {
+		width: 96px;
+		height: 49px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.copyright_bar span {
+	font-size: 6px;
+	}
+	.logo a {
+		font-size: 8px;
+	}
+	.jklogo {
+		width: 96px;
+		height: 49px;
+	}
+}
 			</style>
 	</head>
 

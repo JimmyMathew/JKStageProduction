@@ -37,33 +37,7 @@ include('head.php');
 	background: rgba(153,5,49,0.7);
 	
 }
-.slide-imaes {
-    background-image: url(./images/about/ImageSlider.jpg);
-    background-repeat: repeat-x;
-    animation: slideleft 9000s infinite linear;
-    -webkit-animation: slideleft 9000s infinite linear;
-    background-size: cover;
-    min-height: 500px;
-}
-@keyframes slideleft {
-    from {
-        background-position: 0%;
-    }
 
-    to {
-        background-position: 90000%;
-    }
-}
-
-@-webkit-keyframes slideleft {
-    from {
-        background-position: 0%;
-    }
-
-    to {
-        background-position: 90000%;
-    }
-}
 	</style>
 
 
@@ -91,31 +65,37 @@ include('head.php');
 					<!-- <div class="single_title">About us</div> -->
 						<div class="single_text">
 						<p>
-						JK Stage Production is a Lighting Truss Fabrication & Stage Truss Innovation.
-						We provide a Standard or Customized Aluminum TRUSS used in many applications such as Concert and Stage Lighting. 
-						We build custom stage, roof system and platform.
+						We would like to introduce ourself . 
+						We are JK Stage Productions based out of Chennai and we specialise on all kind of event and wedding fabrication. 
+						We have been in the production industry for last 20 years and we have executed projects across india for various corporates and event agencies. 
+						We would like to share our key areas where we specialise in giving various solutions for fabrication and custom made setups. 
+						The following are our strengths and specialities. 
 						</p>
 						<p>
-						JK Stage Production was established in 2001. It is located in Chennai, Tamil Nadu with convenient transportation access. 
+						1. Complete staging solutions starting from 1 feet to 8 feet height. Double reinforced wooden base and metal structure to ensure heavy load on stage.
 						</p>
 						<p>
-						The company's factory environment is clean and tidy, high-quality management team, well-trained industrial workers, 
-						fast information transmission and meticulous customer management system make the company basically 
-						have the standards of modern production enterprises.
+						2. We provide all kind of fabrication on metal, ply, mdf and we have a strength of 35 plus skilled labour to execute flawless implementation of any design.
 						</p>
 						<p>	
-						The company's main steel/aluminum alloy stage, steel/aluminum alloy truss, folding stage, wedding stage, lighting stand, 
-						chorus, glass stage, grandstand and scaffolding and other products with very strong production capacity of large enterprises.
+						3. We have an extensive list of hydraulic motors which can support launch events and with a capacity of 3 tons of weight load.
 						</p>
 						<p>
-						Dedicated to strict quality control and thoughtful customer service, our experienced staff members are always available 
-						to discuss your requirements and ensure full customer satisfaction. In recent years, our company has introduced a series of advanced equipment.
+						4. We have in-house electrical team and R&D team to ensure we use the latest technology on decorative lights like LED, NEON.....
 						</p>
 						<p>
-						Our TRUSS is safe, reliable and high quality. With innovative vision and superior customer service, JK Stage Production is ready meet the staging needs.
+						5. We have three fabrication units in chennai with a span of over 15000 sqft working area.
 						</p>
 						<p>
-						With innovative vision and superior customer service, JK Stage Production is ready meet the staging needs.
+						6. We have produced and executed event fabrication for more than 3000 events across India and abroad. 
+						</p>
+						<p>
+						7. We were the pioneer in providing fabrication solution using metal frames in early 2000 to all events in south. 
+						</p>
+						<p>
+						8. Today we have the largest Span of stage roofing and trussing in chennai. 
+						We are the proud to announce that we use UNIVERSAL Trussing solution and the size are 80x60 ft and 60x40 ft. 
+						The details of the same will be shared in the attached PDF with all our work which we have executed in the past years. 
 						</p>
 						</div>
 					

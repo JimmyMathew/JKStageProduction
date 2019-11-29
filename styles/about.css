@@ -1105,7 +1105,7 @@ section
 }
 .milestone_counter
 {
-	font-size: 40px;
+	font-size: 35px;
 	color: #FFFFFF;
 	line-height: 0.75;
 }
@@ -1238,4 +1238,52 @@ section
 	font-size: 14px;
 	color: #fff;
 	line-height: 67px;
+}
+.jklogo{
+	width: 125px;
+    height: 60px;
+}
+.home {
+	margin-top: 80px;
+    width: 100%;
+	height: 947px;
+}
+/* Mobile responsive queries  */
+@media only screen and (max-width: 320px) {
+	.copyright_bar span {
+		font-size: 7px;
+		
+	}
+	.logo a {
+		font-size: 8px;
+	}
+	.jklogo {
+		width: 96px;
+		height: 49px;
+	}
+	.home {
+		height: 285px;
+	}
+	.milestones {
+		padding-top: 17px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.copyright_bar span {
+		font-size: 7px;
+		
+	}
+	.logo a {
+		font-size: 8px;
+	}
+	.jklogo {
+		width: 96px;
+		height: 49px;
+	}
+	.home {
+		height: 285px;
+	}
+	.milestones {
+		padding-top: 17px;
+	}
 }
