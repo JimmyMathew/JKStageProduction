@@ -64,6 +64,64 @@ include('head.php');
         background-position: 90000%;
     }
 }
+@media only screen and (max-width: 320px) {
+	.slide-imaes {
+    background-image: url(./images/about/ImageSlider.jpg);
+    background-repeat: repeat-x;
+    animation: slideleft 50000s infinite linear;
+    -webkit-animation: slideleft 50000s infinite linear;
+    background-size: cover;
+    min-height: 270px;
+}
+@keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+
+@-webkit-keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+}
+@media only screen and (max-width: 480px) {
+	.slide-imaes {
+    background-image: url(./images/about/ImageSlider.jpg);
+    background-repeat: repeat-x;
+    animation: slideleft 50000s infinite linear;
+    -webkit-animation: slideleft 50000s infinite linear;
+    background-size: cover;
+    min-height: 270px;
+}
+@keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+
+@-webkit-keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+}
 	</style>
 
 

@@ -168,7 +168,25 @@ include('head.php');
 {
 	color: #000;
 }
-
+.gmap_canvas {overflow:hidden;background:none!important;height:443px;width:600px;}
+@media only screen and (max-width: 320px) {
+	.gmap_canvas {
+	    width: 287px;
+	}
+	.contact_title 
+	{
+	top: 30px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.gmap_canvas {
+	    width: 287px;
+	}
+	.contact_title 
+	{
+	top: 30px;
+	}
+}
 
 	</style>
 	
@@ -195,12 +213,12 @@ include('head.php');
 				<div class="col-lg-6">
 					<div class="contact_form_container">
 						<div class="contact_title">Send us a message</div>
-						<form action="#" class="contact_form" id="contact_form">
-							<input type="text" class="contact_input" placeholder="Name" required="required">
-							<input type="email" class="contact_input" placeholder="E-mail" required="required">
-							<input type="mobile" class="contact_input" placeholder="Mobile" required="required">
-							<input type="text" class="contact_input" placeholder="Subject">
-							<textarea class="contact_input contact_textarea" placeholder="Message" required="required"></textarea>
+						<form action="mail.php" method="post" class="contact_form" id="contact_form">
+							<input type="text" class="contact_input" placeholder="Name" required="required" name="fullName">
+							<input type="email" class="contact_input" placeholder="E-mail" required="required" name="email">
+							<input type="number" class="contact_input" placeholder="Mobile" required="required" name="mobile">
+							<input type="text" class="contact_input" placeholder="Subject" name="subject">
+							<textarea class="contact_input contact_textarea" placeholder="Message" required="required" name="message"></textarea>
 							<button class="contact_button">Send Message</button>
 						</form>
 					</div>
@@ -211,7 +229,7 @@ include('head.php');
 					<div class="contact_info">
 						<div class="contact_title">Where to find us</div>
 						<div class="contact_text">
-						<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="440" id="gmap_canvas" src="https://maps.google.com/maps?q=Gandhi%20Nagar%20Main%20Rd%20Palavakkam%20Tamil%20Nadu%20600041&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:443px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:443px;width:600px;}</style></div>
+						<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="440" id="gmap_canvas" src="https://maps.google.com/maps?q=Gandhi%20Nagar%20Main%20Rd%20Palavakkam%20Tamil%20Nadu%20600041&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:443px;width:600px;}</style></div>
 						</div>
 						<div class="contact_info_list">
 							<ul>

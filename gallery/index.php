@@ -462,6 +462,14 @@
 		width: 96px;
 		height: 49px;
 	}
+	.log_reg {
+		top: 73%;
+		right: 68px;
+	}
+	.social-icon {
+		width: 16px;
+		height: 16px;
+	}
 }
 @media only screen and (max-width: 480px) {
 	.copyright_bar span {
@@ -473,6 +481,14 @@
 	.jklogo {
 		width: 96px;
 		height: 49px;
+	}
+	.log_reg {
+		top: 73%;
+		right: 68px;
+	}
+	.social-icon {
+		width: 16px;
+		height: 16px;
 	}
 }
 			</style>
@@ -486,8 +502,8 @@
 				<div class="social">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
 							<li><a href="https://www.facebook.com/profile.php?id=833951729" target="_blank"><img class="social-icon" src="../images/social/facebook.png" alt="Facebook"/></a></li>	
-							<li><a href="https://www.instagram.com/ragul3324/" target="_blank"><img class="social-icon" src="../images/social/instagram.png" alt="Instagram"/></a></li>
-							<li><a href="#"><img class="social-icon" src="../images/social/twitter.png" alt="Twitter"/></a></li>
+							<li><a href="https://www.instagram.com/jkstageproduction/" target="_blank"><img class="social-icon" src="../images/social/instagram.png" alt="Instagram"/></a></li>
+							<!-- <li><a href="#"><img class="social-icon" src="../images/social/twitter.png" alt="Twitter"/></a></li> -->
 							</ul>
 						</div>
 				</ul>
@@ -604,7 +620,7 @@
 		
 		<div class="copyright_bar">
 			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by <a style="color: #fff;" href="https://jimmymathew.in" target="_blank">Jimmy Mathew</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Developed by Viral BrainZ Digital Marketing Solution.
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </span>
 		</div>

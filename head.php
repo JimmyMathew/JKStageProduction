@@ -7,14 +7,14 @@
 <title>JK Stage Production</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Mixtape template project">
+<meta name="description" content="JK Stage Productions is based out of Chennai specialised on all kind of event and wedding fabrication.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Stylesheet -->
 <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css"> 
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/about.css">
@@ -45,10 +45,7 @@
 	padding-top: 5px;
 	font-size: 15px;
 }
-.social-icon{
-	width: 20px;
-    height: 20px;
-}
+
 </style>
 </head>
 <body>
@@ -64,8 +61,8 @@
 				<div class="social">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
 							<li><a href="https://www.facebook.com/profile.php?id=833951729" target="_blank"><img class="social-icon" src="images/social/facebook.png" alt="Facebook"/></a></li>	
-							<li><a href="https://www.instagram.com/ragul3324/" target="_blank"><img class="social-icon" src="images/social/instagram.png" alt="Instagram"/></a></li>
-							<li><a href="#"><img class="social-icon" src="images/social/twitter.png" alt="Twitter"/></a></li>
+							<li><a href="https://www.instagram.com/jkstageproduction/" target="_blank"><img class="social-icon" src="images/social/instagram.png" alt="Instagram"/></a></li>
+							<!-- <li><a href="#"><img class="social-icon" src="images/social/twitter.png" alt="Twitter"/></a></li> -->
 							
 							</ul>
 						</div>
