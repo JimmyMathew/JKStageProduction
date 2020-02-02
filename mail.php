@@ -2,7 +2,7 @@
 
 // Replace this with your own email address
 $siteOwnersEmail = 'info@jkstageproduction.com';
-$to = 'sakthi.torque@gmail.com,sarah.torque@gmail.com';
+$to = 'sakthi.torque@gmail.com,jk@jkstageproduction.com,ananda@jkstageproduction.com';
 
 
 if($_POST) {
